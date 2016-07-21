@@ -1,29 +1,17 @@
 Prerequisites
 =============
 
-Custom version of NS-3 and specified version of ndnSIM needs to be installed.
+These simulation scenarios should work with the following versions of NS3, ndnSIM 2.0 and ndn-cxx:
 
-The code should also work with the latest version of ndnSIM, but it is not guaranteed.
+- NS3 + ndnSIM: https://github.com/spirosmastorakis/NS3-ndnSIM-NDN-Link-Layer-Reliability
 
-    mkdir ns-dev
-    cd ns-dev
+- ndn-cxx: https://github.com/vusirikala/ndn-cxx
 
-    git clone git://github.com/cawka/ns-3-dev-ndnSIM.git ns-3
-    git clone git://github.com/cawka/pybindgen.git pybindgen
-    git clone git://github.com/NDN-Routing/ndnSIM.git ns-3/src/ndnSIM
+The code may not work with a vanilla version of ndnSIM.
 
-    git clone git://github.com/cawka/ndnSIM-scenario-template.git my-simulations
+For more information how to install NS-3, ndnSIM and how to compile, please refer to http://ndnsim.net/2.0/ website.
 
-    cd ns-3
-    ./waf configure -d optimized
-    ./waf
-    sudo ./waf install
-
-    cd ../my-simulations
-
-After which you can proceed to compile and run the code
-
-For more information how to install NS-3 and ndnSIM, please refer to http://ndnsim.net website.
+For more information on how to compile the scenarios, please take a look here: https://github.com/named-data-ndnSIM/scenario-template
 
 Compiling
 =========
@@ -92,12 +80,3 @@ If you want to request automatic node placement, set up additional environment v
 or
 
     PKG_LIBRARY_PATH=/usr/local/lib NS_VIS_ASSIGN=1 ./waf --run <scenario_name> --vis
-
-Available simulations
-=====================
-
-<Scenario Name>
----------------
-
-Description
-
