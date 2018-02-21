@@ -1,11 +1,13 @@
 Prerequisites
 =============
 
-These simulation scenarios should work with the following versions of NS3, ndnSIM 2.0 and ndn-cxx:
+These simulation scenarios should work with the following versions of NS-3, ndnSIM 2.0 and ndn-cxx:
 
-- NS3 + ndnSIM: https://github.com/spirosmastorakis/NS3-ndnSIM-NDN-Link-Layer-Reliability
+- NS-3: https://github.com/spirosmastorakis/NS3-NDN-Link-Layer-Reliability
 
-- ndn-cxx: https://github.com/vusirikala/ndn-cxx
+- ndnSIM: https://github.com/spirosmastorakis/ndnSIM-link-layer-reliability
+
+- ndn-cxx: https://github.com/spirosmastorakis/ndn-cxx-link-layer-reliability
 
 The code may not work with a vanilla version of ndnSIM.
 
